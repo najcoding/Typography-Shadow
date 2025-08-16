@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My website</title>
+<style>
+ body{
+    font-family:"arial",sans-serrif;
+    background-color: #0D1117;
+    color: #C9D117;
+ }
+ h1{
+     color: #58A6FF;
+ }
+ /* Attribute selector*/
+ a{
+    color: #8B949E;
+    text-decoration: none;
+ }
+ a:hover{
+    color: #1F6FEB;
+ }
+ /* child selector*/
+ ul>li{
+    font-weight: bold;
+ }
+ /* sibling selector */
+ h1 + p {
+    background-color: #161B22;
+    Padding: 10px
+    border-radius: 5px;
+ }
+ /* :hover psuedo-class */
+ ul li:hover {
+    color:#4F8CC9;
+ }
+ /* :nth-child(n) Pseudo-class */
+
+ul li:nth-child(3) {
+
+background-color: #21262D;
+
+}
+
+/* :not(selector) Pseudo-class */
+
+p:not(:first-of-type) {
+
+text-decoration: underline;
+
+}
+
+/* ::before Pseudo-element */
+
+ul li::before {
+
+content: "🚀 ";
+
+}
+
+/* ::after Pseudo-element */
+
+a::after {
+
+content: " 🌌";
+
+}
+
+/* ::first-letter Pseudo-element */
+
+p::first-letter {
+
+font-size: 200%;
+
+color: #FF7B72;
+}
+
+<h1>Welcome to the Space Explorer's Club</h1>
+
+<ul>
+
+<li>Moon Missions</li>
+
+<li>Mars Rovers</li>
+
+<li>International Space Station</li>
+
+<li>Telescopes and Stars</li>
+
+<li>Black Holes Mysteries</li>
+
+</ul>
+
+<p>Space exploration has always
+
+captivated human imagination.
+
+It's a journey to the unknown!</p>
+
+<p>From the Moon to distant galaxies,
+
+we continue to explore the
+
+vastness of space.</p>
+
+<a href="#">Join our Mission</a>
+
+<a href="#">Latest Space News</a>
+
+<a href="#">Gallery of the Universe</a>
+
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Welcome to the Space Explorer's Club</h1>
+
+<ul>
+
+<li>Moon Missions</li>
+
+<li>Mars Rovers</li>
+
+<li>International Space Station</li>
+
+<li>Telescopes and Stars</li>
+
+<li>Black Holes Mysteries</li>
+
+</ul>
+
+<p>Space exploration has always
+
+captivated human imagination.
+
+It's a journey to the unknown!</p>
+
+<p>From the Moon to distant galaxies,
+
+we continue to explore the
+
+vastness of space.</p>
+
+<a href="#">Join our Mission</a>
+
+<a href="#">Latest Space News</a>
+
+<a href="#">Gallery of the Universe</a>
+
+
+
+</Body>
+</html>
